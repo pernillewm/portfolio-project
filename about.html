@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Pernille is a front-end developer based in Norway. She lives in Trondheim and it ready to take the next step into the coding world."
+    />
+    <title>About Pernille - Pernille Wollan Myklebust</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,6 +34,34 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Patricia logo"
+          />
+          <img
+            src="images/logo-small.jpeg"
+            class="logo d-block d-md-none"
+            alt="Patricia logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Patricia">About</a>
+          </li>
+          <li><a href="/work.html" title="Patricias work">Work </a></li>
+          <li>
+            <a href="/contact.html" title="Contact Patricia">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -42,7 +74,7 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">View my projects</a>
+            <a href="/work.html" class="btn btn-branding">View my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -50,5 +82,60 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work tougether</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Patricia"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:pernillewollan@me.com"
+          class="email-link"
+          title="Email Patricia"
+          >pernillewollan@me.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/pernillewm"
+          target="_blank"
+          title="GitHub Profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://instagram.com/pernilleew"
+          title="Instagram Profile"
+          target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.twitter.com/pernilleew"
+          title="Twitter Profile"
+          target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        💻 This project was coded by Pernille Wollan Myklebust, and it is
+        <a
+          href="https://github.com/pernillewm/portfolio-project"
+          target="_blank"
+        >
+          open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
